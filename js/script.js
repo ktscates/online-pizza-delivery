@@ -64,6 +64,7 @@ $(document).ready(function(){
         var priceofpizza=0;
         for(var i=0; i<toppingofpizza.length;i++){
             if(toppingofpizza[i]==="Pepperoni"){
+                toppingofpizza=$("#pepperoni").val()
                 priceofpizza +=1000;
                 console.log(priceofpizza)
             }
@@ -90,9 +91,9 @@ $(document).ready(function(){
 
         console.log(newPizza)
         $("#displayOrder").show();
-        $("#displayOrder").append("<li>")newPizza.size("</li>")
-        $("#displayOrder").append("<li>",(newPizza.crust)"</li>")
-        // $("#displayOrder#pizzaTopping").append("<li>",newPizza.topping+priceofpizza"</li>")
+        $("#displayOrder").append(newPizza.size)
+        $("#displayOrder").append(newPizza.crust)
+        $("#displayOrder#pizzaTopping").append(newPizza.topping)
     });
 
 });
