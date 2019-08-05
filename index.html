@@ -43,17 +43,17 @@
             <div class="row" id="pizzaSize">
 
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="small" id="small" value="small">
+                    <input class="form-check-input" type="radio" name="small" id="small" value="4500">
                     <label class="form-check-label" for="exampleRadios1">Small</label>
                 </div>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="medium" id="medium" value="medium">
+                    <input class="form-check-input" type="radio" name="medium" id="medium" value="7000">
                     <label class="form-check-label" for="exampleRadios1">Medium</label>
                 </div>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="large" id="large" value="large">
+                    <input class="form-check-input" type="radio" name="large" id="large" value="10000">
                     <label class="form-check-label" for="exampleRadios1">Large</label>
                 </div>                
 
@@ -64,17 +64,17 @@
             <div class="row" id="pizzaCrust">
 
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="crispy" id="crispy" value="crispy">
+                    <input class="form-check-input" type="radio" name="crispy" id="crispy" value="2000">
                     <label class="form-check-label" for="exampleRadios1">Crispy</label>
                 </div>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="stuffed" id="stuffed" value="stuffed">
+                    <input class="form-check-input" type="radio" name="stuffed" id="stuffed" value="2000">
                     <label class="form-check-label" for="exampleRadios1">Stuffed</label>
                 </div>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gluten" id="gluten" value="gluten">
+                    <input class="form-check-input" type="radio" name="gluten" id="gluten" value="2000">
                     <label class="form-check-label" for="exampleRadios1">Gluten-free</label>
                 </div>
 
@@ -85,28 +85,44 @@
             <div class="row" id="pizzaToppings">
 
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="pepperoni" value="pepperoni">
+                    <input class="form-check-input" type="checkbox" id="pepperoni" value="1000">
                     <label class="form-check-label" for="inlineCheckbox1">Pepperoni</label>
                 </div>
 
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="sausage" value="sausage">
+                    <input class="form-check-input" type="checkbox" id="sausage" value="1000">
                     <label class="form-check-label" for="inlineCheckbox1">Sausage</label>
                 </div>
 
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="onions" value="onions">
+                    <input class="form-check-input" type="checkbox" id="onions" value="1000">
                     <label class="form-check-label" for="inlineCheckbox1">Onions</label>
                 </div>
 
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="mushrooms" value="mushrooms">
+                    <input class="form-check-input" type="checkbox" id="mushrooms" value="1000">
                     <label class="form-check-label" for="inlineCheckbox1">Mushrooms</label>
                 </div>
 
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="cheese" value="cheese">
+                    <input class="form-check-input" type="checkbox" id="cheese" value="1000">
                     <label class="form-check-label" for="inlineCheckbox1">Extra cheese</label>
+                </div>
+
+            </div>
+
+            <h4>Do you want Delivery?</h4>
+
+            <div class="row">
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="yes" id="yes" value="500">
+                    <label class="form-check-label" for="exampleRadios1">Yes</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="no" id="no" value="0">
+                    <label class="form-check-label" for="exampleRadios1">No</label>
                 </div>
 
             </div>
@@ -115,9 +131,13 @@
 
         </form>
 
+        <div id="displayOrder">
+            <p></p>
+        </div>
+
     </div>
 
-    <div id="displayOrder"></div>
+    
 
 </body>
 
