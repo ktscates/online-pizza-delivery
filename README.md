@@ -10,7 +10,7 @@ This is an online ordering pizza aplication, where the user is able to customize
 * Click on the green button labeled: clone or download. you can clone or download it directly into your computer.
 * Unzip the folder.
 * You should have all the project files.
-##BDD
+## BDD
 * The user choose the size of the pizza.
 * The user choose the crusts.
 * The user choose one or more toppings.
