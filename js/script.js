@@ -87,6 +87,7 @@ $(document).ready(function(){
         if($("#yes").prop("checked")){
             $("#no").prop("checked",false);
             var delivery=$("#yes").val();
+            prompt("Your Location Please");
             console.log(delivery)            
         }
         else if($("#no").prop("checked")){
