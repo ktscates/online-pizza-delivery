@@ -1,0 +1,20 @@
+.container{
+    background-color:rgba(0,0,0,0.6);
+    text-align:center;
+    margin-top:3%;
+    padding:3%;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+}
+h1,h2{
+    margin:30px;
+}
+.form-check{
+    margin:20px;
+}
+img{
+    color:white;
+    height:8%;
+    width:8%;
+    margin-top:5px;
+}
