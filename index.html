@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
+    <link href="https://fonts.googleapis.com/css" rel="stylesheet">
+
     <link rel="icon" type="image/png" href="img/logo.png">
 
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -25,12 +27,15 @@
 
 </head>
 
-<body>
+<body class="blurred" style="background-image:url(img/background2.jpg);background-size:cover;background-repeat:no-repeat;background-attachment:fixed"> 
+    
     <div class="container">
 
-        <h1>Calvados - Pizzeria</h1>
+            <img src="img/logo.png" alt="logo">
 
-        <div class="row">
+        <h1>Welcome to Calvados - Pizzeria</h1>
+
+        <div class="row justify-content-center">
             
             <h2>Build Your Own Pizza</h2>
 
@@ -38,86 +43,86 @@
 
         <form>
 
-            <h4>Size of the pizza</h4>            
+            <h4>**Size of the pizza**</h4>            
 
-            <div class="row" id="pizzaSize">
+            <div class="row justify-content-center" id="pizzaSize">
 
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="small" id="small" value="4500">
-                    <label class="form-check-label" for="exampleRadios1">Small</label>
+                    <input class="form-check-input" type="radio" name="small" id="small" value="5000">
+                    <label class="form-check-label" for="exampleRadios1">Small: 5000frw</label>
                 </div>
 
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="medium" id="medium" value="7000">
-                    <label class="form-check-label" for="exampleRadios1">Medium</label>
+                    <label class="form-check-label" for="exampleRadios1">Medium: 7000frw</label>
                 </div>
 
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="large" id="large" value="10000">
-                    <label class="form-check-label" for="exampleRadios1">Large</label>
+                    <label class="form-check-label" for="exampleRadios1">Large: 10000frw</label>
                 </div>                
 
             </div>
 
-            <h4>Crusts</h4>
+            <h4>**Crusts**</h4>
 
-            <div class="row" id="pizzaCrust">
+            <div class="row justify-content-center" id="pizzaCrust">
 
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="crispy" id="crispy" value="2000">
-                    <label class="form-check-label" for="exampleRadios1">Crispy</label>
+                    <label class="form-check-label" for="exampleRadios1">Crispy: 2000frw</label>
                 </div>
 
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="stuffed" id="stuffed" value="2000">
-                    <label class="form-check-label" for="exampleRadios1">Stuffed</label>
+                    <label class="form-check-label" for="exampleRadios1">Stuffed: 2000frw</label>
                 </div>
 
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="gluten" id="gluten" value="2000">
-                    <label class="form-check-label" for="exampleRadios1">Gluten-free</label>
+                    <label class="form-check-label" for="exampleRadios1">Gluten-free: 2000frw</label>
                 </div>
 
             </div>
 
-            <h4>Toppings</h4>
+            <h4>**Toppings**</h4>
 
-            <div class="row" id="pizzaToppings">
+            <div class="row justify-content-center" id="pizzaToppings">
 
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="pepperoni" value="1000">
-                    <label class="form-check-label" for="inlineCheckbox1">Pepperoni</label>
+                    <label class="form-check-label" for="inlineCheckbox1">Pepperoni: 1000frw</label>
                 </div>
 
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="sausage" value="1000">
-                    <label class="form-check-label" for="inlineCheckbox1">Sausage</label>
+                    <label class="form-check-label" for="inlineCheckbox1">Sausage: 1000frw</label>
                 </div>
 
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="onions" value="1000">
-                    <label class="form-check-label" for="inlineCheckbox1">Onions</label>
+                    <label class="form-check-label" for="inlineCheckbox1">Onions: 1000frw</label>
                 </div>
 
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="mushrooms" value="1000">
-                    <label class="form-check-label" for="inlineCheckbox1">Mushrooms</label>
+                    <label class="form-check-label" for="inlineCheckbox1">Mushrooms: 1000frw</label>
                 </div>
 
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="checkbox" id="cheese" value="1000">
-                    <label class="form-check-label" for="inlineCheckbox1">Extra cheese</label>
+                    <label class="form-check-label" for="inlineCheckbox1">Extra cheese: 1000frw</label>
                 </div>
 
             </div>
 
-            <h4>Do you want Delivery?</h4>
+            <h4>**Do you want Delivery?**</h4>
 
-            <div class="row">
+            <div class="row justify-content-center">
 
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="yes" id="yes" value="500">
-                    <label class="form-check-label" for="exampleRadios1">Yes</label>
+                    <label class="form-check-label" for="exampleRadios1">Yes: 500frw</label>
                 </div>
 
                 <div class="form-check">
@@ -131,7 +136,7 @@
 
         </form>
 
-        <div id="displayOrder">
+        <div class="justify-content-center" id="displayOrder">
             <p></p>
         </div>
 
