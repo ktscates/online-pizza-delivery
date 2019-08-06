@@ -115,11 +115,10 @@ $(document).ready(function(){
             total+=parseInt(nprice[a])
             console.log(parseInt(nprice[a]))
         }
-        // +parseInt(newPizza.price);
-        
 
-        // $("#displayOrder").append("<p>"+""+total+"<p>")
+        $("#displayOrder").append("<p>"+""+total+"<p>")
         alert("The total price is "+total);
+        alert("Thank you for ordering with us!")
 
     });
 
