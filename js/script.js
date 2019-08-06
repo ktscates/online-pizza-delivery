@@ -117,7 +117,7 @@ $(document).ready(function(){
             console.log(parseInt(nprice[a]))
         }
 
-        $("#displayOrder").append("<p>"+""+total+"<p>")
+        $("#displayOrder").append("<p>"+"The total amount is:"+""+total+"<p>")
         alert("The total price is "+total);
         alert("Thank you for ordering with us!")
 
