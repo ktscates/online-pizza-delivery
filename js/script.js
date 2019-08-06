@@ -1,3 +1,4 @@
+// Business logic
 function OrderPizza(sizes,crusts,prices,toppings,delivery){
     this.size=sizes;
     this.crust=crusts;
@@ -10,6 +11,7 @@ OrderPizza.prototype.pizza=function(){
     return this.size + this.crust + this.topping + this.deliver;
 }
 
+// User interface logic
 $(document).ready(function(){
     
     $("button").click(function(){
